@@ -1,0 +1,13 @@
+{
+    "autodeskProduct": "Fusion",
+    "type": "addin",
+    "name": "Fusion Spatial Live",
+    "author": "",
+    "description": {
+        "": "Connects Autodesk Fusion to Fusion Spatial for manual and live Apple Vision Pro previews."
+    },
+    "version": "1.2.0",
+    "runOnStartup": true,
+    "supportedOS": "mac",
+    "editEnabled": true
+}

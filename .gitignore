@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# Swift
+.build/
+.swiftpm/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Release artifacts
+*.dmg
+*.zip
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Xcode per-user data
+**/*.xcodeproj/project.xcworkspace/xcuserdata/
+**/*.xcworkspace/xcuserdata/
+**/*.xcodeproj/xcuserdata/
