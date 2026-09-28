@@ -1,3 +1,21 @@
+## 项目介绍
+
+Fusion Spatial 是一款 macOS 工具，可将 Fusion 360 或 Blender 中的当前 3D 模型快速发送到 Apple Vision Pro，并通过 Apple SpatialPreview 在空间环境中查看。
+
+主要功能：
+
+- 支持 Fusion 360 和 Blender
+- 自动识别最近使用的 3D 软件
+- 一键导出并发送当前模型
+- 支持全局快捷键 `⌃⌥V`
+- 支持实时预览和模型更新
+- 支持 Menu Bar 后台运行
+- 无需单独安装 visionOS App
+- 不需要服务器或第三方运行库
+
+使用前，请通过 Mac Virtual Display 连接 Apple Vision Pro，并在 Fusion Spatial 中安装对应的软件连接器。
+<img width="2212" height="1444" alt="image" src="https://github.com/user-attachments/assets/d812f0c4-815e-414f-9169-0d842fee6938" />
+
 # Fusion Spatial
 
 macOS 27+ and visionOS 27+. Fusion → original USDZ → DocumentPreviewSession.
